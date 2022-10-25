@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calc</title>
+</head>
+<body class="">
+  <div class="body-container">
+    <main class="container">
+      <header class="logo">
+        <h1>calc</h1>
+        <div class="theme-toggle">
+          <span>theme</span>
+          <div class="theme-container">
+            <div class="theme-num">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </div>
+            <div class="tri-state-toggle">
+              <input class="btn-theme" type="radio" name="toggle" id="one" />
+              <input class="btn-theme" type="radio" name="toggle" id="two" />
+              <input class="btn-theme" type="radio" name="toggle" id="three" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="calc">
+        <div class="screen">
+          <input type="text" placeholder="0" readonly id="input">
+        </div>
+        <div class="keys">
+          <input type="button" value="7" class="input-btn">
+          <input type="button" value="8" class="input-btn">
+          <input type="button" value="9" class="input-btn">
+          <input type="button" class="op" value="DEL" id="erase">
+          <input type="button" value="4" class="input-btn">
+          <input type="button" value="5" class="input-btn">
+          <input type="button" value="6" class="input-btn">
+          <input type="button" value="+" class="input-btn">
+          <input type="button" value="1" class="input-btn">
+          <input type="button" value="2" class="input-btn">
+          <input type="button" value="3" class="input-btn">
+          <input type="button" value="-" class="input-btn">
+          <input type="button" value="." class="input-btn">
+          <input type="button" value="0" class="input-btn">
+          <input type="button" value="/" class="input-btn">
+          <input type="button" value="x" class="input-btn">
+          <input type="button" class="op" value="RESET" id="clear">
+          <input type="button" value="=" class="op" id="equal">
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
