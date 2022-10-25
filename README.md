@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/btebe/calc-app)
-- Live Site URL: [live app](https://your-live-site-url.com)
+- Live Site URL: [live app](https://btebe.github.io/calc-app/)
 
 ## My process
 
