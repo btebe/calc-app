@@ -11,6 +11,12 @@
   gap: 1rem;
 }
 
+@media (min-width: 1000px) {
+  .body-container > main  {
+    width: fit-content;
+  }
+}
+
 /* logo */
 
 .logo {
